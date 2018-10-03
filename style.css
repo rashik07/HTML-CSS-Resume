@@ -1,1 +1,21 @@
 /* Your CSS styles go here */
+
+body{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 601px) {
+  h3 {
+    font-size: 80px;
+  }
+}
+
+
+table, th, td {
+   border: 1px solid black;
+}
+
